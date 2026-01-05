@@ -1,5 +1,5 @@
 // Βάλε εδώ τον κωδικό που θες:
-const PASSCODE = "tikaname";
+const PASSCODE = "271025";
 
 // --- Lock/Gift logic ---
 const lockScreen = document.getElementById("lockScreen");
@@ -136,3 +136,4 @@ function stopHearts() {
   heartsCanvas.classList.remove("on");
   heartsCanvas.classList.add("hidden");
 }
+
