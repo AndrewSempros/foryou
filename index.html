@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOCK SCREEN -->
+  <section class="screen" id="lockScreen">
+    <div class="card">
+      <center>
+        <h1>Γειά σου αγάπη μου</h1>
+        <p class="muted">Βρες τον κωδικο αν μπορεις!</p>
+
+        <div class="row">
+          <input id="codeInput" type="password" inputmode="numeric" placeholder="Κωδικός" autocomplete="off" />
+          <button id="unlockBtn">Άνοιγμα</button>
+        </div>
+
+        <p class="error" id="errorMsg"></p>
+      </center>
+    </div>
+  </section>
+
+  <!-- GIFT PAGE -->
+  <section class="screen hidden" id="giftPage">
+    <div class="giftWrap">
+      <h1 class="title">Απο εμένα για εσένα &lt;3</h1>
+
+      <div class="flowerOne">
+        <img class="flower" src="giphy.gif" alt="Animated flower">
+      </div>
+
+      <p class="message">Σε αγαπάω πάρα πολύ!</p>
+
+      <!-- ✅ ΜΟΝΟ ΕΝΑ backBtn -->
+      <button id="backBtn" class="back">↩ Πίσω</button>
+    </div>
+  </section>
+
+  <!-- ✅ Canvas για καρδιές -->
+  <canvas id="heartsCanvas" class="hearts hidden"></canvas>
+
+  <!-- ✅ Φορτώνει ΜΟΝΟ το JS αρχείο -->
+  <script src="script.js"></script>
+</body>
+</html>
